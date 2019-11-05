@@ -7,6 +7,10 @@
 //
 
 #import "WUViewController.h"
+#import "WaterWaveView.h"
+
+#define d_screen_width [UIScreen mainScreen].bounds.size.width
+#define d_screen_height [UIScreen mainScreen].bounds.size.height
 
 @interface WUViewController ()
 
@@ -17,7 +21,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    WaterWaveView *waterWaveView = [[WaterWaveView alloc] initWithFrame:CGRectMake(0, 0, d_screen_width, 384)];
+    [self.view addSubview:waterWaveView];
+    [waterWaveView startWave:15];
 }
 
 - (void)didReceiveMemoryWarning

@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - TuWaterWave (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - TuWaterWave (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  TuWaterWave:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  TuWaterWave: c35dff7d1e03d700cee84c464a885047266b1b82
+
+PODFILE CHECKSUM: fcbf7cc8c2bb423d8fad870d64280f3c873f5b44
+
+COCOAPODS: 1.8.4
