@@ -1,6 +1,0 @@
-framework module TuWaterWave {
-  umbrella header "TuWaterWave-umbrella.h"
-
-  export *
-  module * { export * }
-}
