@@ -8,6 +8,5 @@ target 'TuWaterWave_Example' do
   target 'TuWaterWave_Tests' do
     inherit! :search_paths
 
-    pod 'FBSnapshotTestCase'
   end
 end
