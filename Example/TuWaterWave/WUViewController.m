@@ -22,7 +22,11 @@
 {
     [super viewDidLoad];
     
-    //初始化一个水波视图，比较简单；
+    [self setupView];
+}
+
+- (void)setupView {
+    //初始化一个水波视图，比较简单
     WaterWaveView *waterWaveView = [[WaterWaveView alloc] initWithFrame:CGRectMake(0, 0, d_screen_width, 384)];
     [self.view addSubview:waterWaveView];
     [waterWaveView startWave:15];
