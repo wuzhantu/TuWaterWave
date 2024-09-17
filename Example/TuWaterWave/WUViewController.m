@@ -36,6 +36,10 @@
     // 重构添加的方法
 }
 
+- (void)myfun {
+    // 重构最新修改
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
