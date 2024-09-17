@@ -28,6 +28,10 @@
     [waterWaveView startWave:15];
 }
 
+- (void)setupDatas {
+    // 重构添加的方法
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
