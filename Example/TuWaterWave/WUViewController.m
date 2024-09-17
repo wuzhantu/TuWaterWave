@@ -37,6 +37,10 @@
     // 重构添加的方法
 }
 
+- (void)eat {
+    
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
